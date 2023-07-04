@@ -24,9 +24,12 @@
 // 		console.error('ERROR >>>> ', error)
 // 	}
 // }
-let admin
-let name
-name = 'Джон'
-console.log(name)
-admin = name
-alert(admin)
+// let admin
+// let name
+// name = 'Джон'
+// console.log(name)
+// admin = name
+// alert(admin)
+
+const name = prompt('Как Вас зовут?', '')
+alert(`Ваше имя ${name}`)
