@@ -31,5 +31,10 @@
 // admin = name
 // alert(admin)
 
-const name = prompt('Как Вас зовут?', '')
-alert(`Ваше имя ${name}`)
+// const name = prompt('Как Вас зовут?', '')
+// alert(`Ваше имя ${name}`)
+
+const fuBar = (num) => {
+if (num % 3 === 0) return 'fu'
+    return 'bar'
+}
