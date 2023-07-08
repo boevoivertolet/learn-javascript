@@ -144,3 +144,66 @@
 // } else {
 //     alert('who are u.. ?')
 // }
+
+// let i = 1
+// while (i <= 5) {
+// 	console.log(i)
+// 	i++
+// }
+let arr = [11, 21, 13, 14, 51, 16, 71, 18, 91, 10]
+
+// for (let i = 0; i < arr.length; i++) {
+// 	if (arr[i] % 2 === 0) {
+// 		console.log(arr[i])
+// 	}
+// }
+// console.log(arr)
+// for (let i = 0; i < arr.length; i++) {
+// 	arr[i] = arr[i].toString()
+// }
+// console.log(arr)
+// // let myArray = [10, 20, 30, 40, 50]
+
+// for (let i = 0; i < myArray.length; i++) {
+// 	console.log(myArray[i])
+// }
+
+// let sum = 0
+
+// while (true) {
+// 	let value = +prompt('Введите число', '')
+
+// 	if (!value) break // (*)
+
+// 	sum += value
+// }
+// alert('Сумма: ' + sum)
+
+// for (let i = 0; i < 10; i++) {
+// 	if (i % 2 == 0) continue
+// 	console.log(i)
+// }
+// let i = 111
+// while (i < 5) alert(i)
+
+// четные числа от 2 до 10
+
+// for (let i = 2; i <= 10; i++) {
+// 	if (i % 2 !== 0) continue
+// 	console.log(i)
+// }
+
+// заменить for на while
+
+// for (let i = 0; i < 3; i++) {
+// 	alert(`number ${i}!`)
+// }
+// let i = 0
+// while (i < 3) {
+// 	alert(`number ${i}!`)
+// 	i++
+// }
+
+for (let num = 0; num < 100; num++) {
+	prompt('Число больше 100 :', '')
+}
